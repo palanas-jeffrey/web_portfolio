@@ -232,7 +232,7 @@
 				<div class="col-lg-6 center">
 					<h2 class="text-center title wite bg-b">contact</h2>
 					<!-- <form class="form-group bg-b" method="POST" action="app/controllers/send_mail.php"> -->
-					<h4 id="warning" class="text-center warning"></h4>
+					
 					<form>
 						<div class="form-group bg-b">
 							<label for="name" class="wite bg-b">Name:</label>
@@ -260,7 +260,7 @@
 							<textarea id="message" name="message" class="form-control" rows="3" placeholder="Message Here"></textarea>
 							<span id="reminder"></span>
 						</div>
-
+						<h4 id="warning" class="text-center warning"></h4>
 						<button id="submit" type="button" class="btn btn-block p-3 my-4" >Submit</button>			
 					</form>
 				</div>

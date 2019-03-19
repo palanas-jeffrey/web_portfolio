@@ -117,12 +117,7 @@ $("#submit").click(()=>{
 		var topic = $('#topic').val();
 		var contactNo = $('#contactNo').val();
 		var message = $('#message').val();
-		alert('here');
-		console.log(name);
-		console.log(email);
-		console.log(topic);
-		console.log(contactNo);
-		console.log(message);
+
 	$.ajax({
 		"url":'app/controllers/send_mail.php',
 		"method":'POST',
@@ -134,6 +129,7 @@ $("#submit").click(()=>{
 			'message' : message
 		},
 		"success":(data)=>{
+			console.log(data);
 			if (data == "success"){
 				location.reload();
 				$('#notification').html( `<span id="sMsg">Your message has been successfully sent.</span>`);
