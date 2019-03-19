@@ -1,19 +1,11 @@
 	
 $('#home').click(() =>{
-	// $("#main").css("display","block");
-	// $("#about-sec").css("display","none");
-	// $("#project-sec").css("display","none");
-	// $("#contact-sec").css("display","none");
 	$("#project-sec, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#main").fadeIn(1000);	
 	});
 });
 
 $('#about').click(() =>{
-	// $("#main").css("display","none");
-	// $("#about-sec").css("display","block");
-	// $("#project-sec").css("display","none");
-	// $("#contact-sec").css("display","none");
 	$("#main, #project-sec, #contact-sec").fadeOut(300, function() {
 		$("#about-sec").fadeIn(1000);	
 	})
@@ -21,20 +13,12 @@ $('#about').click(() =>{
 });
 
 $('#g-projects').click(() =>{
-	// $("#main").css("display","none");
-	// $("#about-sec").css("display","none");
-	// $("#contact-sec").css("display","none");
 	$("#main, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#project-sec").fadeIn(1000);	
 	})
-	// $("#project-sec").css("display","block");
 });
 
 $('#projects').click(() =>{
-	// $("#main").css("display","none");
-	// $("#about-sec").css("display","none");
-	// $("#contact-sec").css("display","none");
-	// $("#project-sec").css("display","block");
 	$("#main, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#project-sec").fadeIn(1000);	
 	})
@@ -42,10 +26,6 @@ $('#projects').click(() =>{
 
 
 $('#contact').click(() =>{
-	// $("#main").css("display","none");
-	// $("#project-sec").css("display","none");
-	// $("#about-sec").css("display","none");
-	// $("#contact-sec").css("display","block");
 	$("#main, #about-sec, #project-sec").fadeOut(300, function() {
 		$("#contact-sec").fadeIn(1000);	
 	})
@@ -129,9 +109,10 @@ $("#submit").click(()=>{
 			'message' : message
 		},
 		"success":(data)=>{
-			console.log(data);
-			if (data == "success"){
-				location.reload();
+			if (data.includes("success")){
+				$("#contact-sec").fadeOut(300, function() {
+					$("#main").fadeIn(1000);	
+				});
 				$('#notification').html( `<span id="sMsg">Your message has been successfully sent.</span>`);
 				$('#sMsg').fadeOut(15000);
 			}else{		
