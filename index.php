@@ -40,7 +40,7 @@
 			<div id="main" class="col-lg-11 center sec-up">
 
 			
-				<h2 id="a-q" class="text-center bg-b">
+				<h2 id="a-q" class="text-center bg-b mb-3">
 				 <span class="letter">G</span>
 				 <span class="letter">o</span> 
 				 <span class="letter">t</span>
