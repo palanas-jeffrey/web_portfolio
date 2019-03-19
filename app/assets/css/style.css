@@ -300,6 +300,13 @@ color: #ffffff;
 
 @media only screen and (min-width: 355px) and (max-width: 769px) {
 
+body{
+	background: url(../images/bg2.jpg);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
 #project-sec, #contact-sec{
 	margin-top: 10vh;
 }
