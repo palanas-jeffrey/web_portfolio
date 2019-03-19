@@ -47,7 +47,7 @@ font-weight: bold;
 
 /*fonts*/
 body{
-	background-image: url("../images/bg1.jpg");
+	background-image: url("../images/bg3.jpg");
 	background-position: center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -163,7 +163,7 @@ color: #ffffff;
 }
 
 .bg-b{
-	background-color: rgba(0,0,0 ,0.3);
+	background-color: rgba(0,0,0 ,0.5);
 	padding: 5px 20px;
 }
 
@@ -303,7 +303,7 @@ label{
 @media only screen and (min-width: 355px) and (max-width: 769px) {
 
 body{
-	background: url(../images/bg2.jpg);
+	background: url(../images/bg9.jpg);
 	background-position: right;
 	background-size: cover;
 	background-attachment: fixed;

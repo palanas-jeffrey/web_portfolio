@@ -37,7 +37,7 @@
 
 		<!-- <div id="particles-js" class="sec-1 sec-b"></div>  -->	
 		<div  class="sec-1 col-lg-12 center">
-			<div id="main" class="col-lg-11 center sec-up">
+			<div id="main" class="col-lg-10 center sec-up">
 
 			
 				<h2 id="a-q" class="text-center bg-b mb-3">
@@ -228,7 +228,7 @@
 			<!-- ======================= contact -->
 			
 			<div id="contact-sec" class="row">
-				<div class="col-lg-6 center">
+				<div class="col-lg-6 center mb-4">
 					<h2 class="text-center title wite bg-b">contact</h2>
 					<!-- <form class="form-group bg-b" method="POST" action="app/controllers/send_mail.php"> -->
 					

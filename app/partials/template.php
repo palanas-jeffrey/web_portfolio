@@ -41,7 +41,7 @@
 	
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
 </head>
-<body >
+<body>
 	
 	<?php 
 		require_once 'header.php';
