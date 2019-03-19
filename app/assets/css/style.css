@@ -305,9 +305,10 @@ label{
 body{
 	background: url(../images/bg9.jpg);
 	background-position: right;
-	background-size: contain;
+	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
+	height: 100vh;
 }
 #project-sec, #contact-sec{
 	margin-top: 10vh;
