@@ -54,11 +54,10 @@ $message = $_POST['message'];
 	    $mail->isHTML(true); 
 	    $mail->Subject = $subject;
 	    $mail->Body = $body;
-
-	    
-	    header('location: ../../index.php');
-	
 	    $mail->send();
+
+	    echo 'success';
+	    // header('location: ../../index.php');
 
 	} catch (Exception $e) {
 	    echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;

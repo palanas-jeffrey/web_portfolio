@@ -10,8 +10,7 @@
 	
 			
 
-		<div id="pane"  class="b-cont col-sm
-		-12 ">
+		<div id="pane"  class="b-cont col-sm-12" data-toggle="collapse" data-target="#nav-pane">
 			<div id="pane-con" class=" col-sm-1 col-lg-1 col-md-1">
 				<div class="row btn-con bg-b">
 					<div class=" col-sm-12 bg-b">
@@ -35,9 +34,13 @@
 				</div>
 			</div>
 		</div>
+
 		<!-- <div id="particles-js" class="sec-1 sec-b"></div>  -->	
 		<div  class="sec-1 col-lg-12 center">
 			<div id="main" class="col-lg-11 center sec-up">
+
+				<h4 id="notification" class="text-center notification"></h4>
+
 				<h2 id="a-q" class="text-center bg-b">
 				 <span class="letter">G</span>
 				 <span class="letter">o</span> 
@@ -100,7 +103,7 @@
 									<div class="row">
 										<div class="col-lg-12">
 											<h2 class="wite title text-center bg-b">About</h2>
-											<p class="wite bg-b ps text-justify">I'm Jeffrey Palanas a web developer/software engineer who graduated at Tuitt Coding Bootcamp. Trained SEO (Search Engine Optimization Specialist) of SEO Phils. A career shifter from marine engineering. Graduate of Bachelor of Science in Marine Engineering from Southwestern University Maritime Regiment. <a href="../assets/myresume.docx" class="wite" download>My resume.</a></p>
+											<p class="wite bg-b ps text-justify">I'm Jeffrey Palanas a web developer/software engineer. A humble graduate of Tuitt Coding Bootcamp. Trained SEO Specialist (Search Engine Optimization Specialist) of SEO Phils. A career shifter from the field of marine engineering. Liscensed marine engineer and a Graduate of Bachelor of Science in Marine Engineering from Southwestern University Maritime Regiment. <a href="../assets/myresume.docx" class="wite" download>My resume.</a></p>
 
 										</div>
 										
@@ -163,8 +166,8 @@
 						<div class="col-lg-6">
 							<h3 class="wite bg-b text-center t-s">Marine Enjneering</h3>
 							<p class="wite bg-b ">Marine Enjneering aims to provide information in the field of Marine Engineering to an aspiring Marine Engineering student and officer. It is a dive in discussion to give a brief information to discover the said field.</p>
-							<h4 class="wite bg-b text-center t-s">Technology</h4>
-							<p class="wite bg-b ">Ezzy Hotel utilizes Bootstrap4 for moblie-first layout. Made with HTML and customized with CSS.</p>
+							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
+							<p class="wite bg-b ">Marine Enjneering utilizes Bootstrap4 for moblie-first layout. Made with HTML and customized with CSS.</p>
 							<div class=" bg-b my-1">
 								<a href="https://palanas-jeffrey.github.io/marineenjneering77/" target="_blank" class="wite vist-a" >Visit the Site <i class="fas fa-arrow-circle-right" ></i></a>
 							</div>
@@ -225,10 +228,11 @@
 
 			<!-- ======================= contact -->
 			
-				<div id="contact-sec" class="row">
-				<div class="col-lg-6 center bg-b">
+			<div id="contact-sec" class="row">
+				<div class="col-lg-6 center">
 					<h2 class="text-center title wite bg-b">contact</h2>
 					<!-- <form class="form-group bg-b" method="POST" action="app/controllers/send_mail.php"> -->
+					<h4 id="warning" class="text-center warning"></h4>
 					<form>
 						<div class="form-group bg-b">
 							<label for="name" class="wite bg-b">Name:</label>
@@ -257,25 +261,25 @@
 							<span id="reminder"></span>
 						</div>
 
-						<button id="submit" type="button" class="btn btn-block p-3 my-4">Submit</button>			
+						<button id="submit" type="button" class="btn btn-block p-3 my-4" >Submit</button>			
 					</form>
-					
 				</div>
 				
 			</div>
-		
-			
+
+
+					
 
 <!-- ================================end -->
 
-			</div>
+		</div>
 
 
 <!-- ========================= -->
 
 
 	
-
+<!-- =================================== -->
 			
 	</div>
 

@@ -272,6 +272,12 @@ color: #ffffff;
 	height: 5vh;
 }*/
 
+.notification{
+	color: #76FF03;
+}
+.warning{
+	color: #FF3D00;
+}
 
 
 	/*end of css decalarations*/

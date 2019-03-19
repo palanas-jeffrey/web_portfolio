@@ -1,6 +1,4 @@
-
 	
-
 $('#home').click(() =>{
 	// $("#main").css("display","block");
 	// $("#about-sec").css("display","none");
@@ -61,7 +59,7 @@ function validate_message(){
 	var topic = $('#topic').val();
 	var contactNo = $('#contactNo').val();
 	var message = $('#message').val();
-	console.log(message);
+
 	if(name.length == 0){
 		$("#name").next().html("Name is required.");
 		$("#name").next().css('color','red');
@@ -90,14 +88,15 @@ function validate_message(){
 		$('#contactNo').next().html("Please add a valid contact number.");
 		$('#contactNo').next().css("color", "red");
 		$('#contactNo').next().css('background', 'white');
+		errors++;
 	}else{
 		$('#contactNo').next().html('');
 	}
 	if(message.length == 0){
-		alert('hi');
 		$('#reminder').html("Please add a message.");
 		$('#reminder').css("color", "red");
 		$('#reminder').css('background',"white");
+		errors++;
 	}else{
 		$('#reminder').html('');
 	}
@@ -113,7 +112,38 @@ $("#submit").click(()=>{
 
 	if(validate_message()){
 
-	alert('hi');
+		var name = $('#name').val();
+		var email = $('#email').val();
+		var topic = $('#topic').val();
+		var contactNo = $('#contactNo').val();
+		var message = $('#message').val();
+		alert('here');
+		console.log(name);
+		console.log(email);
+		console.log(topic);
+		console.log(contactNo);
+		console.log(message);
+	$.ajax({
+		"url":'app/controllers/send_mail.php',
+		"method":'POST',
+		"data":{
+			'name': name,
+			'email': email,
+			'topic': topic,
+			'contactNo': contactNo,
+			'message' : message
+		},
+		"success":(data)=>{
+			if (data == "success"){
+				location.reload();
+				$('#notification').html( `<span id="sMsg">Your message has been successfully sent.</span>`);
+				$('#sMsg').fadeOut(15000);
+			}else{		
+				$('#warning').html( `<span id="sWng">Message sending failed.</span>`);
+				$('#sWng').fadeOut(20000);
+			}
+		}
+	})
 	}
 })
 
