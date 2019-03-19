@@ -64,14 +64,6 @@ function validate_message(){
 	}else{
 		$('#topic').next().html('');
 	}
-	if(contactNo.length ==0 || contactNo <=0){
-		$('#contactNo').next().html("Please add a valid contact number.");
-		$('#contactNo').next().css("color", "red");
-		$('#contactNo').next().css('background', 'white');
-		errors++;
-	}else{
-		$('#contactNo').next().html('');
-	}
 	if(message.length == 0){
 		$('#reminder').html("Please add a message.");
 		$('#reminder').css("color", "red");

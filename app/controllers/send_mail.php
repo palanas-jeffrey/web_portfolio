@@ -13,7 +13,7 @@ use PHPMailer\PHPMailer\Exception;
 $name = $_POST['name'];
 $email = $_POST['email']; 
 $topic = $_POST['topic'];
-$contact = $_POST['contact'];
+$contact = $_POST['contactNo'];
 $message = $_POST['message'];
 
 //=====================
