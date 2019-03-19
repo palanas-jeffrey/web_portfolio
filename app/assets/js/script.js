@@ -102,7 +102,7 @@ $("#submit").click(()=>{
 		},
 		"success":(data)=>{
 			console.log(data);
-			if (data.includes("success")){
+			if (data =="success"){
 				// $("#contact-sec").fadeOut(300, function() {
 				// 	$("#main").fadeIn(1000);	
 				// });
