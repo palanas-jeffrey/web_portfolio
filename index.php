@@ -13,12 +13,12 @@
 		<div id="pane"  class="b-cont col-sm-12" data-toggle="collapse" data-target="#nav-pane">
 			<div id="pane-con" class=" col-sm-1 col-lg-1 col-md-1">
 				<div class="row btn-con bg-b">
-					<div class=" col-sm-12 bg-b">
-						<button id="menu" class=" btn bg-b my-2" type="button" data-toggle="collapse" data-target="#nav-pane">
+					<div class=" col-sm-12">
+						<button id="menu" class="btn my-1" type="button" data-toggle="collapse" data-target="#nav-pane">
 						<i class="fas fa-bars"></i>
 						</button>	
 					</div>
-					<div id="nav-pane" class="bg-b collapse row col-sm-12">
+					<div id="nav-pane" class=" collapse row col-sm-12">
 						<div id="home" class="r-90 selection bull-0  my-5 bord ">
 							<span data-toggle="collapse" data-target="#nav-pane">home</span>
 						</div>

@@ -302,7 +302,7 @@ color: #ffffff;
 
 body{
 	background: url(../images/bg2.jpg);
-	background-position: center;
+	background-position: left;
 	background-size: cover;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
