@@ -39,8 +39,7 @@
 		<div  class="sec-1 col-lg-12 center">
 			<div id="main" class="col-lg-11 center sec-up">
 
-				<h4 id="notification" class="text-center notification"></h4>
-
+			
 				<h2 id="a-q" class="text-center bg-b">
 				 <span class="letter">G</span>
 				 <span class="letter">o</span> 
@@ -260,6 +259,7 @@
 							<textarea id="message" name="message" class="form-control" rows="3" placeholder="Message Here"></textarea>
 							<span id="reminder"></span>
 						</div>
+						<h4 id="notification" class="text-center notification"></h4>
 						<h4 id="warning" class="text-center warning"></h4>
 						<button id="submit" type="button" class="btn btn-block p-3 my-4" >Submit</button>			
 					</form>

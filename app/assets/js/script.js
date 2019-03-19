@@ -110,9 +110,9 @@ $("#submit").click(()=>{
 		},
 		"success":(data)=>{
 			if (data.includes("success")){
-				$("#contact-sec").fadeOut(300, function() {
-					$("#main").fadeIn(1000);	
-				});
+				// $("#contact-sec").fadeOut(300, function() {
+				// 	$("#main").fadeIn(1000);	
+				// });
 				$('#notification').html( `<span id="sMsg">Your message has been successfully sent.</span>`);
 				$('#sMsg').fadeOut(15000);
 			}else{		
