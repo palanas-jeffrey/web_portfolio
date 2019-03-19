@@ -234,34 +234,36 @@
 					
 					<form>
 						<div class="form-group bg-b">
-							<label for="name" class="wite bg-b">Name:</label>
+							<label for="name" class="wite">Name:</label>
 							<input id="name" name="name" type="name" class="form-control">
 							<span></span>
 						</div>
 						<div class="form-group bg-b">
-							<label for="email" class="wite bg-b">Email:</label>
+							<label for="email" class="wite">Email:</label>
 							<input id="email" name="email" type="email" class="form-control">
 							<span></span>
 						</div>
 						<div class="form-group bg-b">
-							<label for="topic" name="topic" class="wite bg-b">Topic:</label>
+							<label for="topic" name="topic" class="wite">Topic:</label>
 							<input id="topic" type="text" name="topic" class="form-control">
 							<span></span>
 						</div>
 						<div class="form-group bg-b">			
-							<label for="contactNo" class="wite bg-b">Contact:</label>
+							<label for="contactNo" class="wite">Contact:</label>
 							<input id="contactNo" name="contactNo" type="number" class="form-control">
 							<span></span>
 						</div>
 
 						<div class="form-group bg-b">
-							<label for="message" class="wite bg-b">Message:</label>
+							<label for="message" class="wite">Message:</label>
 							<textarea id="message" name="message" class="form-control" rows="3" placeholder="Message Here"></textarea>
 							<span id="reminder"></span>
 						</div>
 						<h4 id="notification" class="text-center notification"></h4>
 						<h4 id="warning" class="text-center warning"></h4>
-						<button id="submit" type="button" class="btn btn-block p-3 my-4" >Submit</button>			
+						<div class="bg-b">
+							<button id="submit" type="button" class="btn btn-block p-3 my-4" >Submit</button>
+						</div>
 					</form>
 				</div>
 				

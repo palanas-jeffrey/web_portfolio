@@ -286,7 +286,9 @@ color: #ffffff;
 	color: #FF3D00;
 }
 
-
+label{
+	font-size: 20px;
+}
 	/*end of css decalarations*/
 
 
