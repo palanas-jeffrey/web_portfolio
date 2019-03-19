@@ -101,6 +101,7 @@ $("#submit").click(()=>{
 			'message' : message
 		},
 		"success":(data)=>{
+			console.log(data);
 			if (data.includes("success")){
 				// $("#contact-sec").fadeOut(300, function() {
 				// 	$("#main").fadeIn(1000);	

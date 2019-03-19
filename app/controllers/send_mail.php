@@ -37,7 +37,7 @@ $message = $_POST['message'];
 	."<div>Message: $message</div>";
 	try {
 	 
-	    $mail->SMTPDebug = 4;                                 
+	    $mail->SMTPDebug = 0;                                 
 	    $mail->isSMTP();                                     
 	    $mail->Host = 'smtp.gmail.com';                       
 	    $mail->SMTPAuth = true;                               
