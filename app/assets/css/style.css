@@ -171,10 +171,10 @@ color: #ffffff;
 	position: relative;
 	padding: 0;
 	margin: 0;
-	background-image: url("../images/bg1.jpg");
+/*	background-image: url("../images/bg1.jpg");
 	background-position: center;
 	background-size: cover;
-	background-attachment: fixed;
+	background-attachment: fixed;*/
 
 }
 #particles-js{
