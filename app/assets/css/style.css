@@ -46,6 +46,12 @@ font-weight: bold;
 }
 
 /*fonts*/
+body{
+	background-image: url("../images/bg1.jpg");
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
+}
 #pane{
 	padding-right: 0;
 	padding-left: 10px;
