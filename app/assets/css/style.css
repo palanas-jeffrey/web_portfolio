@@ -305,7 +305,7 @@ label{
 body{
 	background: url(../images/bg9.jpg);
 	background-position: right;
-	background-size: cover;
+	background-size: contain;
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
