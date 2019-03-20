@@ -207,7 +207,7 @@
 							<h3 class="wite bg-b text-center t-s m-top">Ezzy Hotel</h3>
 							<p class="wite bg-b ">Ezzy hotel is a hotel booking website providing a place one can call home.</p>
 							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
-							<p class="wite bg-b ">Ezzy Hotel make use of Express.js and Node.js in the backend while Laravel, Javascript, jQuery in frontend. MongoDB for database. Some CRUD functionality for both user and admin.</p>
+							<p class="wite bg-b ">Ezzy Hotel utilizes of Express.js and Node.js in the backend while Laravel, Javascript, jQuery, CSS, and Bootstrap in frontend. MongoDB for database. Frontend and backend were at separated concerns, Fetch API plays its role for network request. It also includes some CRUD functionality for both user and admin.</p>
 							<div class="wite bg-b my-1">
 								<a href="https://whispering-dusk-67095.herokuapp.com" target="_blank" class=" wite" >Visit the Site <i class="fas fa-arrow-circle-right"></i></a>
 							</div>	
