@@ -101,8 +101,9 @@
 								<div class="col-lg-6">
 									<div class="row">
 										<div class="col-lg-12">
-											<h2 class="wite title text-center bg-b">About</h2>
-											<p class="wite bg-b ps text-justify">I'm Jeffrey Palanas a web developer/software engineer. A humble graduate of Tuitt Coding Bootcamp. Trained SEO Specialist (Search Engine Optimization Specialist) of SEO Phils. A career shifter from the field of marine engineering. Liscensed marine engineer and a Graduate of Bachelor of Science in Marine Engineering from Southwestern University Maritime Regiment. <a href="../assets/myresume.docx" class="wite" download>My resume.</a></p>
+											<h2 class="wite title text-center bg-b">about</h2>
+											<p class="wite bg-b ps text-justify">I'm Jeffrey Palanas a web developer/software engineer. A humble graduate of Tuitt Coding Bootcamp. Trained SEO Specialist (Search Engine Optimization Specialist) of SEO Phils. A career shifter from the field of marine engineering. Licensed Marine Engineer and a Graduate of Bachelor of Science in Marine Engineering from Southwestern University Maritime Regiment.</p>
+											<!-- <a href="../assets/myresume.docx" class="wite" download>My resume.</a> -->
 
 										</div>
 										
@@ -166,7 +167,7 @@
 							<h3 class="wite bg-b text-center t-s">Marine Enjneering</h3>
 							<p class="wite bg-b ">Marine Enjneering aims to provide information in the field of Marine Engineering to an aspiring Marine Engineering student and officer. It is a dive in discussion to give a brief information to discover the said field.</p>
 							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
-							<p class="wite bg-b ">Marine Enjneering utilizes Bootstrap4 for moblie-first layout. Made with HTML and customized with CSS.</p>
+							<p class="wite bg-b ">Marine Enjneering utilizes Bootstrap4, making it mobile-first and responsive. Made with HTML and with touch of CSS.</p>
 							<div class=" bg-b my-1">
 								<a href="https://palanas-jeffrey.github.io/marineenjneering77/" target="_blank" class="wite vist-a" >Visit the Site <i class="fas fa-arrow-circle-right" ></i></a>
 							</div>
@@ -174,7 +175,6 @@
 						</div>					
 					</div>
 					
-
 					<div class="row ">
 						<div class="col-lg-6 img-s bg-img center">
 							<div id="img-i" class="">

@@ -124,7 +124,7 @@ ul{
 
 .title{
 font-family: 'Roboto', sans-serif;
-font-size: 60px;
+font-size: 50px;
 color: #ffffff;
 }
 
@@ -286,6 +286,10 @@ color: #ffffff;
 	color: #FF3D00;
 }
 
+.b-b{
+	border-bottom: 1px solid black;
+}
+
 label{
 	font-size: 20px;
 }
@@ -350,7 +354,7 @@ body{
 	padding: 0vh 0vh;
 }
 .bord{
-	border: 1px solid black;
+	border: 1px solid rgba(0,0,0,0);
 }
 .ps{
 	font-size: 15px;
