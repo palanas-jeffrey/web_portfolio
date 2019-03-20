@@ -164,7 +164,7 @@
 							
 						</div>
 						<div class="col-lg-6">
-							<h3 class="wite bg-b text-center t-s">Marine Enjneering</h3>
+							<h3 class="wite bg-b text-center t-s m-top">Marine Enjneering</h3>
 							<p class="wite bg-b ">Marine Enjneering aims to provide information in the field of Marine Engineering to an aspiring Marine Engineering student and officer. It is a dive in discussion to give a brief information to discover the said field.</p>
 							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
 							<p class="wite bg-b ">Marine Enjneering utilizes Bootstrap4, making it mobile-first and responsive. Made with HTML and with touch of CSS.</p>
@@ -175,6 +175,27 @@
 						</div>					
 					</div>
 					
+				
+
+					<div class="row">
+						<div class="col-lg-6 img-s bg-img center">
+							<div id="img-i" class="">
+								<img  class="img-fluid center" src="app/assets/images/alfalaval.png">
+							</div>
+							
+						</div>
+						<div class="col-lg-6">
+							<h3 class="wite bg-b text-center t-s m-top">Alfa Laval Purifier Spares Inventory</h3>
+							<p class="wite bg-b ">Alfa Laval Purifier Spares Inventory is an asset management app. It aims to give a convenient way to make requisitions onboard ship while making an efficient way to make the inventory process and requisition even simpler. Providing a productive way to lessen the errors of requested parts.</p>
+							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
+							<p class="wite bg-b ">Alfa Laval Purifier Spares Inventory utilizes Laravel, MySQL, Bootstrap, CSS and HTML. Features includes CRUD for users and Admin.</p>
+							<div class="wite bg-b my-1 ">
+								<a href="https://mighty-wildwood-39125.herokuapp.com"  target="_blank" class=" wite" >Visit the Site <i class="fas fa-arrow-circle-right"></i></a>
+							</div>
+							
+						</div>					
+					</div>
+				
 					<div class="row ">
 						<div class="col-lg-6 img-s bg-img center">
 							<div id="img-i" class="">
@@ -183,37 +204,16 @@
 							
 						</div>
 						<div class="col-lg-6">
-							<h3 class="wite bg-b text-center t-s">Ezzy Hotel</h3>
-							<p class="wite bg-b ">Ezzy hotel is a hotel booking website providing a place one can call home. A place to unwind from troubles and to feel serenity/ shallom. It aims to give a convenient and eazy way to book a hotel room. </p>
-							<h4 class="wite bg-b text-center t-s">Technology</h4>
-							<p class="wite bg-b ">Ezzy Hotel make use MELN as the backend with Laravel as frontend. Bootstrap4 layout. Made with HTML and customized with CSS.</p>
+							<h3 class="wite bg-b text-center t-s m-top">Ezzy Hotel</h3>
+							<p class="wite bg-b ">Ezzy hotel is a hotel booking website providing a place one can call home.</p>
+							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
+							<p class="wite bg-b ">Ezzy Hotel make use of Express.js and Node.js in the backend while Laravel, Javascript, jQuery in frontend. MongoDB for database. Some CRUD functionality for both user and admin.</p>
 							<div class="wite bg-b my-1">
 								<a href="https://whispering-dusk-67095.herokuapp.com" target="_blank" class=" wite" >Visit the Site <i class="fas fa-arrow-circle-right"></i></a>
 							</div>	
 							
 						</div>					
 					</div>
-
-					<div class="row ">
-						<div class="col-lg-6 img-s bg-img center">
-							<div id="img-i" class="">
-								<img  class="img-fluid center" src="app/assets/images/alfalaval.png">
-							</div>
-							
-						</div>
-						<div class="col-lg-6">
-							<h3 class="wite bg-b text-center t-s">Alfa Laval Purifier Spares Inventory</h3>
-							<p class="wite bg-b ">Alfa Laval Purifier Spares Inventory is an asset management app. It aims to give a convenient way to make requisitions onboard ship while making an efficient way to make the inventory process and requisition even simpler. Providing a productive way to lessen the errors of requested parts.</p>
-							<h4 class="wite bg-b text-center t-s">Technology</h4>
-							<p class="wite bg-b ">Alfa Laval Purifier Spares Inventory utilizes mainly of Laravel.  With some touch of Bootstrap and customized with CSS.</p>
-							<div class="wite bg-b my-1 ">
-								<a href="https://mighty-wildwood-39125.herokuapp.com"  target="_blank" class=" wite" >Visit the Site <i class="fas fa-arrow-circle-right"></i></a>
-							</div>
-							
-						</div>					
-					</div>
-				
-
 
 
 
