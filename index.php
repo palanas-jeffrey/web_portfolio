@@ -156,8 +156,8 @@
 			<div id="project-sec" class="project-con row">
 				<div class="col-lg-10 center">
 					<h2 class="wite title text-center bg-b mt-5">portfolio</h2>
-					<div class="row ">
-						<div class="col-lg-6 img-s bg-img center">
+					<div class="row">
+						<div class="col-lg-6 img-ex img-s bg-img center">
 							<div id="img-i" class="">
 								<img  class="img-fluid center" src="app/assets/images/marineenjneering.png">
 							</div>
@@ -178,7 +178,7 @@
 				
 
 					<div class="row">
-						<div class="col-lg-6 img-s bg-img center">
+						<div class="col-lg-6 img-ex img-s bg-img center">
 							<div id="img-i" class="">
 								<img  class="img-fluid center" src="app/assets/images/alfalaval.png">
 							</div>
@@ -197,7 +197,7 @@
 					</div>
 				
 					<div class="row ">
-						<div class="col-lg-6 img-s bg-img center">
+						<div class="col-lg-6 img-ex img-s bg-img center">
 							<div id="img-i" class="">
 								<img  class="img-fluid center" src="app/assets/images/hotel.png">
 							</div>

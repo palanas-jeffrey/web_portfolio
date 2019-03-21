@@ -256,6 +256,7 @@ color: #ffffff;
 	display: none;
 }
 
+
 .img-s{
 	height: 50vh;
 	width: 100%;
@@ -293,6 +294,9 @@ color: #ffffff;
 
 label{
 	font-size: 20px;
+}
+.h-lan{
+	min-height: 20vh;
 }
 	/*end of css decalarations*/
 
@@ -366,12 +370,14 @@ body{
 #contact-sec{
 	padding-top: 5vh;
 }
+
 .img-s{
 	height: 30vh;
 	width: 100%;
 	padding-top: 3vh;
 	margin: 0 10px;
 }
+
 .bg-b{
 	margin: 0 10px;
 }
@@ -386,6 +392,14 @@ label{
 }
 #submit{
 	font-size: 15px;
+}
+
+}
+
+
+@media only screen and (min-width: 640px) and (max-width: 670px){
+	.img-ex{
+	height: 75vh;
 }
 
 }
@@ -422,7 +436,7 @@ label{
 	margin: 0 auto; 
 }
 .img-s{
-	height: 35vh;
+	min-height: 35vh;
 	width: 100%;
 	padding-top: 3vh;
 
