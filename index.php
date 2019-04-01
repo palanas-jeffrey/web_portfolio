@@ -8,40 +8,38 @@
  
 	<div class="row cont-h" style="margin-left: 0px; margin-right: 0px;">
 	
-			
 
 		<div id="pane"  class="b-cont col-sm-12" data-toggle="collapse" data-target="#nav-pane">
 			<div id="pane-con" class=" col-sm-1 col-lg-1 col-md-1">
-				<div class="row btn-con bg-b">
-					<div class=" col-sm-12">
-						<button id="menu" class="btn my-1" type="button" data-toggle="collapse" data-target="#nav-pane">
+				<div class=" btn-con bg-b">
+					<div class="row menu-btn-con text-center">
+						<button id="menu" class="btn my-1 center" type="button" data-toggle="collapse" data-target="#nav-pane">
 						<i class="fas fa-bars"></i>
 						</button>	
 					</div>
 					<div id="nav-pane" class=" collapse row col-sm-12">
-						<div id="home" class="r-90 selection bull-0  my-5 bord ">
-							<span data-toggle="collapse" data-target="#nav-pane">home</span>
+						<div id="home" class="r-90 selection bull-0  my-5 bord">
+							<span data-toggle="collapse" data-target="#nav-pane" class="">home</span>
 						</div>
-						<div id="about" class="r-90 selection bull-0  my-5 bord">
-							<span data-toggle="collapse" data-target="#nav-pane">about</span>
+						<div id="about" class="r-90 selection bull-0  my-5 bord ">
+							<span data-toggle="collapse" data-target="#nav-pane" class="">about</span>
 						</div>
-						<div id="projects" class="r-90 selection bull-0  my-5 bord ">
-							<span data-toggle="collapse" data-target="#nav-pane">portfolio</span>
+						<div id="projects" class="r-90 selection bull-0  my-5 bord  ">
+							<span data-toggle="collapse" data-target="#nav-pane" class="">portfolio</span>
 						</div>
-						<div id="contact" class="r-90 selection bull-0  my-5 bord">
-							<span data-toggle="collapse" data-target="#nav-pane">contact</span></div>
+						<div id="contact" class="r-90 selection bull-0  my-5 bord ">
+							<span data-toggle="collapse" data-target="#nav-pane" class="">contact</span>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 
-		<!-- <div id="particles-js" class="sec-1 sec-b"></div>  -->	
 		<div  class="sec-1 col-lg-12 center">
 			<div id="main" class="col-lg-10 center sec-up">
 
-			
-				<h2 id="a-q" class="text-center bg-b mb-3">
-				 <span class="letter">G</span>
+				<h2 id="a-q" class="text-center mb-3">
+				 <span class="letter bg-b">G</span>
 				 <span class="letter">o</span> 
 				 <span class="letter">t</span>
 				 <span class="letter">&nbsp</span>
@@ -81,11 +79,19 @@
 			
 
 				</h2>
-				<h2 class="title text-center animated fadeIn bg-b">i'm jeff, a Web Developer</h2>
+				<h2 class="title text-center animated fadeIn ">
+					<span class="">
+						i'm jeff, a Web Developer
+					</span>
+				</h2>
 		
-				<h4 class="center text-center bg-b">
-				<button id="g-projects" class="btn">View My Portfolio <i class="fas fa-arrow-circle-right"></i>
-				</button>
+				<h4 class="center text-center">
+					<span class="">
+						<button id="g-projects" class="btn bg-b">
+							View My Portfolio <i class="fas fa-arrow-circle-right"></i>
+						</button>		
+					</span>
+				
 				</h4>
 			</div>
 			
@@ -117,22 +123,22 @@
 									<div class="row ">
 										<div class="col-lg-12 t-con-p mb-5 mt-4">
 											<div class="row">
-												<div class=" col-lg-2 col-md-2 col-3 sk-i">
+												<div class=" col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/js.png">
 												</div>
-												<div class=" col-lg-2 col-md-2 col-3 sk-i">
+												<div class=" col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/mongodb.png">
 												</div>
-												<div class=" col-lg-2 col-md-2 col-3 sk-i">
+												<div class=" col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/mysql.png">
 												</div>
-												<div class=" col-lg-2 col-md-2 col-3 sk-i">
+												<div class=" col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/bootstrap.jpg">
 												</div>	
-												<div class=" col-lg-2 col-md-2 col-3 sk-i">
+												<div class=" col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/css.png">
 												</div>	
-												<div class=" col-lg-2 col-md-2 col-3 sk-i">
+												<div class=" col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/html.png">
 												</div>
 												<div class=" col-lg-2 col-md-2 col-3">
@@ -206,7 +212,6 @@
 						<div class="col-lg-6">
 							<h3 class="wite bg-b text-center t-s m-top">Ezzy Hotel</h3>
 							<p class="wite bg-b ">Ezzy hotel is a hotel booking website providing a place one can call home.</p>
-							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
 							<p class="wite bg-b ">Ezzy Hotel utilizes of Express.js and Node.js in the backend while Laravel, Javascript, jQuery, CSS, and Bootstrap in frontend. MongoDB for database. Frontend and backend were at separated concerns, Fetch API plays its role for network request. It also has some CRUD functionality for both user and admin.</p>
 							<div class="wite bg-b my-1">
 								<a href="https://whispering-dusk-67095.herokuapp.com" target="_blank" class=" wite" >Visit the Site <i class="fas fa-arrow-circle-right"></i></a>
@@ -230,7 +235,6 @@
 			<div id="contact-sec" class="row">
 				<div class="col-lg-6 center mb-4">
 					<h2 class="text-center title wite bg-b">contact</h2>
-					<!-- <form class="form-group bg-b" method="POST" action="app/controllers/send_mail.php"> -->
 					
 					<form>
 						<div class="form-group bg-b">
