@@ -10,8 +10,8 @@
 	
 
 		<div id="pane"  class="b-cont col-sm-12 " data-toggle="collapse" data-target="#nav-pane">
-			<div id="pane-con" class=" col-sm-1 col-lg-1 col-md-1">
-				<div class=" btn-con bg-b check">
+			<div id="pane-con" class="col-lg-1 col-md-1">
+				<div id="btn-con" class=" btn-con bg-b">
 					<div class="row menu-btn-con text-center">
 						<button id="menu" class="btn my-1 center" type="button" data-toggle="collapse" data-target="#nav-pane">
 						<i class="fas fa-bars"></i>
