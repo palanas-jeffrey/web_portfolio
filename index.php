@@ -15,8 +15,15 @@
 					<div class="row menu-btn-con text-center">
 						<button id="menu" class="btn my-1 center" type="button" data-toggle="collapse" data-target="#nav-pane">
 						<i class="fas fa-bars"></i>
-						</button>	
+						</button>
+						<div id="mobile-landscape-nav">
+							<span id="home2" class="mln ">home</span>	
+							<span id="about2" class="mln ">about</span>	
+							<span id="projects2" class="">portfolio</span>	
+							<span id="contact2" class="mln ">contact</span>	
+						</div>
 					</div>
+				
 					<div id="nav-pane" class=" collapse row col-sm-12">
 						<div id="home" class="r-90 selection bull-0  my-5 bord">
 							<span data-toggle="collapse" data-target="#nav-pane" class="">home</span>
@@ -161,7 +168,7 @@
 <!-- =============  project -->
 			<div id="project-sec" class="project-con row">
 				<div class="col-lg-10 center">
-					<h2 class="wite title text-center bg-b mt-5">portfolio</h2>
+					<h2 id="portfolio-t" class="wite title text-center bg-b  mt-5">portfolio</h2>
 					<div class="row">
 						<div class="col-lg-6 img-ex img-s bg-img center">
 							<div id="img-i" class="">

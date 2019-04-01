@@ -1,11 +1,14 @@
-	
-$('#home').click(() =>{
+
+
+$(document).ready( () => {
+
+$('#home, #home2').click(() =>{
 	$("#project-sec, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#main").fadeIn(1000);	
 	});
 });
 
-$('#about').click(() =>{
+$('#about, #about2').click(() =>{
 	$("#main, #project-sec, #contact-sec").fadeOut(300, function() {
 		$("#about-sec").fadeIn(1000);	
 	})
@@ -18,14 +21,14 @@ $('#g-projects').click(() =>{
 	})
 });
 
-$('#projects').click(() =>{
+$('#projects,#projects2').click(() =>{
 	$("#main, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#project-sec").fadeIn(1000);	
 	})
 });
 
 
-$('#contact').click(() =>{
+$('#contact,#contact2').click(() =>{
 	$("#main, #about-sec, #project-sec").fadeOut(300, function() {
 		$("#contact-sec").fadeIn(1000);	
 	})
@@ -114,9 +117,6 @@ $("#submit").click(()=>{
 	}
 })
 
-
-
-$(document).ready( () => {
 
 
 
