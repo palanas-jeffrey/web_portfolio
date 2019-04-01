@@ -276,6 +276,9 @@ body{
 .btn-p{
 	margin-top: 5px;
 }
+.btn-con{
+	margin: 0 auto;
+}
 .b-cont{
 	margin-top: 7vh;
 }

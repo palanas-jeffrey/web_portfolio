@@ -9,9 +9,9 @@
 	<div class="row cont-h" style="margin-left: 0px; margin-right: 0px;">
 	
 
-		<div id="pane"  class="b-cont col-sm-12" data-toggle="collapse" data-target="#nav-pane">
+		<div id="pane"  class="b-cont col-sm-12 " data-toggle="collapse" data-target="#nav-pane">
 			<div id="pane-con" class=" col-sm-1 col-lg-1 col-md-1">
-				<div class=" btn-con bg-b">
+				<div class=" btn-con bg-b check">
 					<div class="row menu-btn-con text-center">
 						<button id="menu" class="btn my-1 center" type="button" data-toggle="collapse" data-target="#nav-pane">
 						<i class="fas fa-bars"></i>
