@@ -1,37 +1,47 @@
 
 
 $(document).ready( () => {
+	$('#about2,#projects2,#contact2').css("color","#6c757d")
 
 $('#home, #home2').click(() =>{
 	$("#project-sec, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#main").fadeIn(1000);	
 	});
+	$('#about2,#projects2,#contact2').css("color","#6c757d");
+	$('#home2').css("color","#ffffff");
 });
 
 $('#about, #about2').click(() =>{
 	$("#main, #project-sec, #contact-sec").fadeOut(300, function() {
 		$("#about-sec").fadeIn(1000);	
 	})
-	
+	$('#home2,#projects2,#contact2').css("color","#6c757d")
+	$('#about2').css("color","#ffffff");
 });
 
 $('#g-projects').click(() =>{
 	$("#main, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#project-sec").fadeIn(1000);	
-	})
+	});
+	$('#home2,#about2,#contact2',).css("color","#6c757d")
+	$('#projects2s').css("color","#ffffff");
 });
 
 $('#projects,#projects2').click(() =>{
 	$("#main, #about-sec, #contact-sec").fadeOut(300, function() {
 		$("#project-sec").fadeIn(1000);	
-	})
+	});
+	$('#home2,#about2,#contact2',).css("color","#6c757d")
+	$('#projects2').css("color","#ffffff");
 });
 
 
 $('#contact,#contact2').click(() =>{
 	$("#main, #about-sec, #project-sec").fadeOut(300, function() {
 		$("#contact-sec").fadeIn(1000);	
-	})
+	});
+	$('#home2,#about2,#projects2',).css("color","#6c757d")
+	$('#contact2').css("color","#ffffff");
 });
 
 function validate_message(){
@@ -116,6 +126,8 @@ $("#submit").click(()=>{
 	})
 	}
 })
+
+
 
 
 
