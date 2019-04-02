@@ -1,7 +1,7 @@
 
 
 /*fonts*/
-body{
+.cont-h{
 	background-image: url("../images/bg3.jpg");
 	background-position: center;
 	background-size: cover;
@@ -255,7 +255,7 @@ label{
 
 @media only screen and (min-width: 355px) and (max-width: 769px) {
 
-body{
+.cont-h{
 	background: url(../images/bg9.jpg);
 	background-position: right;
 	background-size: cover;
