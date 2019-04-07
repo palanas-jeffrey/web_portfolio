@@ -1,4 +1,39 @@
+#planeNav{
+/*	position: absolute;*/
+	height: 50px;
+	width:  50px;
+	margin: 15px 15px;
 
+}
+.plane-img-con{
+	height: 80px;
+	width: 80px;
+	background-color: rgba(0,0,0 ,0.7);
+	float: right;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	border-radius: 50%;
+}
+#planeCon{
+	height: 100vh;
+	width: 100%;
+	position: absolute;
+}
+.views{
+	color: #ffffff;
+	padding-right: 35px;
+	padding-bottom: 0px;
+	font-size: 20px;
+	text-shadow: 2px 2px rgba(0,0,0 ,0.7);
+	clear: both;
+	
+}
+.views > p{
+	text-align: right;
+}
+.views-con{
+	width: 100%;
+}
 
 /*fonts*/
 body{
@@ -491,44 +526,7 @@ height: 80vh;
 .m-top{
 	margin-top: 20px;
 }
-#menu{
-	margin: 0 auto;
-}
-#planeNav{
-/*	position: absolute;*/
-	height: 100px;
-	width: 100px;
-	margin: 25px 25px;
 
-}
-.plane-img-con{
-	height: 150px;
-	width: 150px;
-	background-color: rgba(0,0,0 ,0.7);
-	float: right;
-	margin-right: 20px;
-	margin-bottom: 20px;
-	border-radius: 50%;
-}
-#planeCon{
-	height: 100vh;
-	width: 100%;
-	position: absolute;
-}
-.views{
-	color: #ffffff;
-	padding-right: 70px;
-	padding-bottom: 50px;
-	font-size: 25px;
-	text-shadow: 2px 2px rgba(0,0,0 ,0.7);
-	clear: both;
-	
-}
-.views > p{
-	text-align: right;
-}
-.views-con{
-	width: 100%;
-}
+
 
 }
