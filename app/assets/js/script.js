@@ -14,30 +14,19 @@ $('#home2').click(() =>{
 });
 
 $('#about, #about2').click(() =>{
-	// $("#main, #project-sec, #contact-sec").fadeOut(300, function() {
-	// 	$("#about-sec").fadeIn(1000);	
-	// })
+
 	$('#home2,#projects2,#contact2').css("color","#2884f2")
 	$('#about2').css("color","#ffffff");
 });
 
-// $('#g-projects').click(() =>{
-	
-// });
 
 $('#projects2').click(() =>{
-	// $("#main, #about-sec, #contact-sec").fadeOut(300, function() {
-	// 	$("#project-sec").fadeIn(1000);	
-	// });
 	$('#home2,#about2,#contact2',).css("color","#2884f2")
 	$('#projects2').css("color","#ffffff");
 });
 
 
 $('#contact,#contact2').click(() =>{
-	// $("#main, #about-sec, #project-sec").fadeOut(300, function() {
-	// 	$("#contact-sec").fadeIn(1000);	
-	// });
 	$('#home2,#about2,#projects2',).css("color","#2884f2")
 	$('#contact2').css("color","#ffffff");
 });
@@ -329,9 +318,6 @@ function projectsShow(){
 
 				</div>
 				
-					
-				
-					
 
 			</div>
 	`);
@@ -339,9 +325,6 @@ function projectsShow(){
 	$('#projects2').css("color","#ffffff");
 }
 
-// $("#g-projects").click(()=>{
-// 	 projectsShow();
-// })
 
 
 $("#projects2,#g-projects").click(()=>{
