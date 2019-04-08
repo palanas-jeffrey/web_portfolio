@@ -260,7 +260,6 @@ $("#about2").click(()=>{
 
 function projectsShow(){
 	$("#containSection").html(`
-
 			<div id="project-sec" class="project-con row">
 				<div class="col-lg-10 center">
 					<h2 id="portfolio-t" class="wite title text-center bg-b  mt-5">portfolio</h2>
@@ -327,12 +326,11 @@ function projectsShow(){
 						</div>					
 					</div>
 
-
-
 				</div>
 				
 
 			</div>
+
 	`);
 	$('#home2,#about2,#contact2').css("color","#2884f2")
 	$('#projects2').css("color","#ffffff");

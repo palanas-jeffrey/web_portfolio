@@ -15,7 +15,7 @@
 					<div class="views">
 						<p><span id="home2" class="">home</span></p>
 						<p><span id="about2" class="">about</span> </p>
-						<p><span id="projects2" cslass="">projects</span></p>
+						<p><span id="projects2" cslass="">portfolio</span></p>
 						<p><span id="contact2" class="">contact</span></p>
 					</div>
 				</div>
@@ -35,6 +35,7 @@
 			
 
 <!-- =============  project -->
+
 			
 
 			<!-- ======================= contact -->
