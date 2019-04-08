@@ -10,6 +10,7 @@
 	
 		<div id="planeCon" class="plane-con row ">	
 			<div id="plane-nav"  class="plane-nav fixed-bottom">
+				<p class="instruction"><span> Click the plane to navigate</span></p>
 				<div id="viewsCon" class="views-con collapse" data-toggle="collapse" data-target="#viewsCon">
 					<div class="views">
 						<p><span id="home2" class="">home</span></p>
@@ -18,7 +19,6 @@
 						<p><span id="contact2" class="">contact</span></p>
 					</div>
 				</div>
-				<p class="instruction"><span> Click the plane to navigate</span></p>
 				<div class="plane-img-con" data-toggle="collapse" data-target="#viewsCon"><img id="planeNav" src="app/assets/images/paper_plane_blue.png" class=""></div>
 			</div>
 			

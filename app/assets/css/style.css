@@ -35,7 +35,7 @@
 	position: absolute;
 }
 #plane-nav{
-	min-height: 10vh;
+	min-height: 8vh;
 	min-width: 40%;
 	margin-left:60%;
 }
@@ -269,8 +269,30 @@ body{
 	background-repeat: no-repeat;
 	height: 100vh;
 }
+.plane-img-con{
+	height: 50px;
+	width: 50px;
+	background-color: rgba(0,0,0 ,0.7);
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	border-radius: 50%;
+	border: 1px solid #ffffff;
+	overflow: hidden;
+}
+#planeNav{
+	height: 30px;
+	width:  30px;
+	margin: 10px 10px;
+}
 
-
+.views{
+	color: #ffffff;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	font-size: 25px;
+	text-shadow: 2px 2px rgba(0,0,0 ,0.7);	
+}
 #project-sec, #contact-sec{
 	margin-top: 10vh;
 }
