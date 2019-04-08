@@ -191,7 +191,7 @@ $("#about2").click(()=>{
 								</div>
 								<div class="col-lg-6">
 									<div class="row">
-										<div class="col-lg-12">
+										<div class="col-lg-12 center">
 											<h2 class="wite title text-center bg-b">about</h2>
 											<p class="wite bg-b ps text-justify">I'm Jeffrey Palanas a web developer/software engineer. A humble graduate of Tuitt Coding Bootcamp. Trained SEO Specialist (Search Engine Optimization Specialist) of SEO Phils. A career shifter from the field of marine engineering. Licensed Marine Engineer and a Graduate of Bachelor of Science in Marine Engineering from Southwestern University Maritime Regiment.</p>
 											<!-- <a href="../assets/myresume.docx" class="wite" download>My resume.</a> -->
@@ -205,30 +205,43 @@ $("#about2").click(()=>{
 											<h2 class="text-center wite bg-b">skills</h2>
 										</div>
 									</div>
-									<div class="row ">
-										<div class="col-lg-12 t-con-p mb-5 mt-4">
+									<div class="row">
+										<div class="col-lg-12 t-con-p mb-5 mt-4 bg-b">
 											<div class="row">
-												<div class=" col-lg-2 col-md-2 col-3">
-													<img class="img-fluid" src="app/assets/images/js.png">
-												</div>
-												<div class=" col-lg-2 col-md-2 col-3">
-													<img class="img-fluid" src="app/assets/images/mongodb.png">
-												</div>
-												<div class=" col-lg-2 col-md-2 col-3">
-													<img class="img-fluid" src="app/assets/images/mysql.png">
-												</div>
-												<div class=" col-lg-2 col-md-2 col-3">
+												<div class=" my-2 col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/bootstrap.jpg">
-												</div>	
-												<div class=" col-lg-2 col-md-2 col-3">
+												</div>
+												<div class="my-2 col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/css.png">
-												</div>	
-												<div class=" col-lg-2 col-md-2 col-3">
+												</div>
+												<div class="my-2 col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/html.png">
 												</div>
-												<div class=" col-lg-2 col-md-2 col-3">
+												<div class="my-2 col-lg-2 col-md-2 col-3">
+													<img class="img-fluid" src="app/assets/images/Javascript.png">
+												</div>	
+												<div class="my-2 col-lg-2 col-md-2 col-3">
+													<img class="img-fluid" src="app/assets/images/jquery.jpg">
+												</div>	
+												<div class="my-2 col-lg-2 col-md-2 col-3">
+													<img class="img-fluid" src="app/assets/images/laravel.png">
+												</div>
+												<div class="my-2 col-lg-2 col-md-2 col-3">
+													<img class="img-fluid" src="app/assets/images/mongodb.jpg">
+												</div>
+												<div class="my-2 col-lg-2 col-md-2 col-3">
+													<img class="img-fluid" src="app/assets/images/mysql.png">
+												</div>
+												<div class="my-2 col-lg-2 col-md-2 col-3">
 													<img class="img-fluid" src="app/assets/images/php.png">
-												</div>		
+												</div>
+												<div class="my-2 col-lg-2 col-md-2 col-3">
+													<img class="img-fluid" src="app/assets/images/node.jpg">
+												</div>
+												<div class="my-2 col-lg-2 col-md-2 col-3">
+													<img class="img-fluid" src="app/assets/images/git.jpeg">
+												</div>				
+				
 
 											</div>
 											
