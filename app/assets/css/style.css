@@ -280,6 +280,14 @@ label{
 .h-lan{
 	min-height: 20vh;
 }
+
+#footer{
+	min-height: 20vh;
+	background-color: rgba(0,0,0,1);
+	width: 100%;
+	margin-left: 0;
+	margin-right: 0;
+}
 	/*end of css decalarations*/
 
 

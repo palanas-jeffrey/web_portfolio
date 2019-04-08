@@ -1,4 +1,4 @@
-<footer class="row">
+<footer id="footer" class="row check2">
 	
 </footer>
 
