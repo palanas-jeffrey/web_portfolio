@@ -1,45 +1,43 @@
 
 
 $(document).ready( () => {
-	$('#about2,#projects2,#contact2').css("color","#2884f2")
+	$('#about2,#projects2,#contact2').css("color","#2884f2");
 
-$('#home, #home2').click(() =>{
-	$("#project-sec, #about-sec, #contact-sec").fadeOut(300, function() {
-		$("#main").fadeIn(1000);	
-	});
+
+$(".instruction").delay(5000).fadeOut(2000);
+
+$('#home2').click(() =>{
+	
 	$('#about2,#projects2,#contact2').css("color","#2884f2");
 	$('#home2').css("color","#ffffff");
+	location.reload();
 });
 
 $('#about, #about2').click(() =>{
-	$("#main, #project-sec, #contact-sec").fadeOut(300, function() {
-		$("#about-sec").fadeIn(1000);	
-	})
+	// $("#main, #project-sec, #contact-sec").fadeOut(300, function() {
+	// 	$("#about-sec").fadeIn(1000);	
+	// })
 	$('#home2,#projects2,#contact2').css("color","#2884f2")
 	$('#about2').css("color","#ffffff");
 });
 
-$('#g-projects').click(() =>{
-	$("#main, #about-sec, #contact-sec").fadeOut(300, function() {
-		$("#project-sec").fadeIn(1000);	
-	});
-	$('#home2,#about2,#contact2',).css("color","#2884f2")
-	$('#projects2s').css("color","#ffffff");
-});
+// $('#g-projects').click(() =>{
+	
+// });
 
-$('#projects,#projects2').click(() =>{
-	$("#main, #about-sec, #contact-sec").fadeOut(300, function() {
-		$("#project-sec").fadeIn(1000);	
-	});
+$('#projects2').click(() =>{
+	// $("#main, #about-sec, #contact-sec").fadeOut(300, function() {
+	// 	$("#project-sec").fadeIn(1000);	
+	// });
 	$('#home2,#about2,#contact2',).css("color","#2884f2")
 	$('#projects2').css("color","#ffffff");
 });
 
 
 $('#contact,#contact2').click(() =>{
-	$("#main, #about-sec, #project-sec").fadeOut(300, function() {
-		$("#contact-sec").fadeIn(1000);	
-	});
+	// $("#main, #about-sec, #project-sec").fadeOut(300, function() {
+	// 	$("#contact-sec").fadeIn(1000);	
+	// });
 	$('#home2,#about2,#projects2',).css("color","#2884f2")
 	$('#contact2').css("color","#ffffff");
 });
@@ -132,7 +130,7 @@ $("#containSection").html(`
 		<div id="main" class="col-lg-10 center sec-up">
 
 				<h2 id="a-q" class="text-center mb-3">
-				 <span class="letter bg-b">G</span>
+				 <span class="letter">G</span>
 				 <span class="letter">o</span> 
 				 <span class="letter">t</span>
 				 <span class="letter">&nbsp</span>
@@ -180,7 +178,7 @@ $("#containSection").html(`
 		
 				<h4 class="center text-center">
 					<span class="">
-						<button id="g-projects" class="btn bg-b">
+						<button id="g-projects" class="g-projects btn bg-b">
 							View My Portfolio <i class="fas fa-arrow-circle-right"></i>
 						</button>		
 					</span>
@@ -191,9 +189,7 @@ $("#containSection").html(`
 };
 
 firstpage();
-$("#home2").click(()=>{
-	firstpage();
-});
+
 
 
 $("#about2").click(()=>{
@@ -260,8 +256,7 @@ $("#about2").click(()=>{
 	`)
 })
 
-
-$("#projects2").click(()=>{
+function projectsShow(){
 	$("#containSection").html(`
 
 			<div id="project-sec" class="project-con row">
@@ -270,14 +265,15 @@ $("#projects2").click(()=>{
 					<div class="row">
 						<div class="col-lg-6 img-ex img-s bg-img center">
 							<div id="img-i" class="">
-								<img  class="img-fluid center" src="app/assets/images/marineenjneering.png">
+								<a href="https://palanas-jeffrey.github.io/marineenjneering77/" target="_blank" >
+									<img  class="img-fluid center" src="app/assets/images/marineenjneering.png">
+								</a>
 							</div>
 							
 						</div>
 						<div class="col-lg-6">
 							<h3 class="wite bg-b text-center t-s m-top">Marine Enjneering</h3>
 							<p class="wite bg-b ">Marine Enjneering aims to provide information in the field of Marine Engineering to an aspiring Marine Engineering student and officer. It is a dive in discussion to give a brief information to discover the said field.</p>
-							<!-- <h4 class="wite bg-b text-center t-s">Technology</h4> -->
 							<p class="wite bg-b ">Marine Enjneering utilizes Bootstrap4, making it mobile-first and responsive. Made with HTML and with touch of CSS.</p>
 							<div class=" bg-b my-1">
 								<a href="https://palanas-jeffrey.github.io/marineenjneering77/" target="_blank" class="wite vist-a" >Visit the Site <i class="fas fa-arrow-circle-right" ></i></a>
@@ -291,7 +287,9 @@ $("#projects2").click(()=>{
 					<div class="row">
 						<div class="col-lg-6 img-ex img-s bg-img center">
 							<div id="img-i" class="">
-								<img  class="img-fluid center" src="app/assets/images/alfalaval.png">
+								<a href="https://mighty-wildwood-39125.herokuapp.com"  target="_blank" >
+									<img  class="img-fluid center" src="app/assets/images/alfalaval.png">
+								</a>
 							</div>
 							
 						</div>
@@ -310,7 +308,9 @@ $("#projects2").click(()=>{
 					<div class="row ">
 						<div class="col-lg-6 img-ex img-s bg-img center">
 							<div id="img-i" class="">
-								<img  class="img-fluid center" src="app/assets/images/hotel.png">
+								<a href="https://whispering-dusk-67095.herokuapp.com" target="_blank">
+									<img  class="img-fluid center" src="app/assets/images/hotel.png">
+								</a>
 							</div>
 							
 						</div>
@@ -335,12 +335,23 @@ $("#projects2").click(()=>{
 
 			</div>
 	`);
+	$('#home2,#about2,#contact2').css("color","#2884f2")
+	$('#projects2').css("color","#ffffff");
+}
+
+// $("#g-projects").click(()=>{
+// 	 projectsShow();
+// })
+
+
+$("#projects2,#g-projects").click(()=>{
+	 projectsShow();
 })
 
 
 $("#contact2").click(()=>{
 	$("#containSection").html(`
-						<div id="contact-sec" class="row">
+			<div id="contact-sec" class="row">
 				<div class="col-lg-6 center mb-4">
 					<h2 class="text-center title wite bg-b">contact</h2>
 					
@@ -403,6 +414,7 @@ anime.timeline({loop: true})
     easing: "easeOutExpo",
     delay: 1000
   });
+
 
 });
 

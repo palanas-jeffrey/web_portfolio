@@ -1,9 +1,24 @@
 #planeNav{
-/*	position: absolute;*/
 	height: 50px;
 	width:  50px;
 	margin: 15px 15px;
 
+}
+.instruction{
+	color: white;
+	text-align: right;
+	text-shadow: 2px 2px red;
+}
+.instruction>span{
+	background-color: red;
+}
+
+
+.views >p> span{
+	background-color: rgba(0,0,0 ,0.7);
+	border-radius: 5px;
+	padding: 2px;
+	cursor: alias;
 }
 .plane-img-con{
 	height: 80px;
@@ -13,27 +28,34 @@
 	margin-right: 20px;
 	margin-bottom: 20px;
 	border-radius: 50%;
+	border: 1px solid #ffffff;
+	overflow: hidden;
 }
 #planeCon{
-	height: 100vh;
-	width: 100%;
 	position: absolute;
 }
+#plane-nav{
+	min-height: 10vh;
+	min-width: 30%;
+	margin-left:70%;
+}
+
 .views{
 	color: #ffffff;
 	padding-right: 35px;
 	padding-bottom: 0px;
 	font-size: 20px;
 	text-shadow: 2px 2px rgba(0,0,0 ,0.7);
-	clear: both;
+/*	clear: both;*/
 	
 }
 .views > p{
 	text-align: right;
+	overflow: hidden;
 }
-.views-con{
+/*.views-con{
 	width: 100%;
-}
+}*/
 
 /*fonts*/
 body{
@@ -43,56 +65,7 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-#mobile-landscape-nav{
-	display: none;
-}
-#pane{
-	padding-right: 0;
-	padding-left: 0;
-	padding-bottom: 0;
-	margin-top: 0;
-	position: fixed;
-	z-index: 24;
-}
-#nav-pane{
-	margin-top: 4vh;
-	padding-left: 0;
-	padding-right: 0;
-	margin-right: 0;
-	margin-left: 0;
-}
-#menu{
-	border: 1px solid #ffffff;
-	color: #ffffff;
-	margin-left:0px;
-}
-.btn-con{
-	padding-left:0px;
-}
 
-.b-cont{
-	position: absolute;
-	z-index: 20;
-	position: fixed;
-}
-.r-90{
-	-ms-transform: rotate(90deg); /* IE 9 */
-  -webkit-transform: rotate(90deg); /* Safari */
-  transform: rotate(90deg); /* Standard syntax */
-}
-.selection{
-	margin: 0vh 10vh;
-	font-size: 20px;
-	color: #ffffff;
-}
-.selection:hover{
-	color: blue;
-	transition: 0.3s;
-	cursor: pointer;
-}
-.selection:not(:hover){
-	transition: 0.3s;
-}
 .visit-a{	
 	text-decoration: none;
 	/*transition: 0.3s;*/
@@ -100,12 +73,6 @@ body{
 div>a{
 	color: #ffffff;
 	text-decoration-line: none;
-}
-
-ul{
-	list-style-type:none;
-	color: #ffffff;
-	font-size: 20px;
 }
 
 
@@ -141,8 +108,8 @@ color: #ffffff;
 	border: 1px solid white;
 }
 #submit:hover{
-	border: 1px solid blue;
-	color: blue;
+	border: 1px solid #2884f2;
+	color: #2884f2;
 	transition: 1s;
 }
 #submit:not(:hover){
@@ -224,21 +191,10 @@ color: #ffffff;
 	min-height: 100vh;
 }
 
-#about-sec{
-	display: none;
-}
-#project-sec{
-	display: none;
-}
-
-
 #about-con{
 	padding-top: 10vh;
 	min-height: 100vh;
 
-}
-#contact-sec{
-	display: none;
 }
 
 
@@ -282,12 +238,18 @@ label{
 }
 
 #footer{
-	min-height: 20vh;
+	min-height: 18vh;
 	background-color: rgba(0,0,0,1);
 	width: 100%;
 	margin-left: 0;
 	margin-right: 0;
+	color: #ffff;
+	padding: 10px;
 }
+.fa-github{
+	font-size: 20px;
+}
+
 	/*end of css decalarations*/
 
 
@@ -309,18 +271,7 @@ body{
 	background-repeat: no-repeat;
 	height: 100vh;
 }
-#pane{
-	width: 100%;
-}
-#pane-con{
-	width: 100%;
-}
-#btn-con{
-/*	margin: 0 auto;*/
-	width: 100%;
-	margin-left: 0;
-	margin-right: 0;
-}
+
 
 #project-sec, #contact-sec{
 	margin-top: 10vh;
@@ -346,38 +297,11 @@ body{
 	margin-top: 7vh;
 }
 
-/*#menu{
-	float: left;
-}*/
 
-#pane-con{
-	padding-right: 0;
-	padding-left: 0;
-}
-#nav-pane{
-	margin-top: 0vh;
-	padding-right:90vh;
-/*	min-height: 70vh;*/
-}
-
-.selection{
-	/*min-height: 15px;*/
-	/*padding-left: 90vh;	*/
-	width: 100%;
-	font-size: 15px;
-	background-color: rgba(0,0,0,0);
-	margin: 10vh 0vh;
-	padding: 0vh 0vh;
-}
-.bord{
-	border: 1px solid rgba(0,0,0,0);
-}
 .ps{
 	font-size: 15px;
 }
-/*.b-cont{
-	margin-top: 0vh;
-}*/
+
 #contact-sec{
 	padding-top: 5vh;
 }
@@ -412,21 +336,6 @@ label{
 .img-ex{
 height: 80vh;
 }
-#nav-pane{
-	display: none;
-}
-#btn-con{
-	clear: both;
-}
-#mobile-landscape-nav{
-	color: #ffffff;
-	padding-top: 10px;
-	display: block;
-	margin-right: 10px;
-}
-#mobile-landscape-nav> span{
-	margin-left: 10px;
-}
 #project-sec{
 	padding-top: 5px;
 }
@@ -447,21 +356,6 @@ height: 80vh;
 .img-ex{
 height: 80vh;
 }
-#nav-pane{
-	display: none;
-}
-#btn-con{
-	clear: both;
-}
-#mobile-landscape-nav{
-	color: #ffffff;
-	padding-top: 10px;
-	display: block;
-	margin-right: 10px;
-}
-#mobile-landscape-nav> span{
-	margin-left: 10px;
-}
 #project-sec{
 	margin-top: 25px;
 	padding-top: 10px;
@@ -478,13 +372,7 @@ height: 80vh;
 /*Tablet Styles*/
 
 @media only screen and (min-width: 500px) and (max-width: 780px) {
-.selection{
-	min-height: 40px;
-	/*margin-left: -10vh;	*/
-	font-size: 15px;
-	background-color: rgba(0,0,0,0);
-	margin-top:0;
-}
+
 #a-q{
 	margin: 0 24px;
 }
@@ -510,11 +398,7 @@ height: 80vh;
 	min-height: 35vh;
 	width: 100%;
 	padding-top: 3vh;
-
 }
-/*#project-sec{
-	margin-top: 10vh;
-}*/
 
 }
 
@@ -522,19 +406,9 @@ height: 80vh;
 
 	@media only screen and (min-width: 900px) {
 
-#pane-con{
-	width: 100%;
-}
-.selection{
-	margin: 0 auto;
-}
-#nav-pane{
-	margin: 0 auto;
-}
 .m-top{
 	margin-top: 20px;
 }
-
 
 
 }
