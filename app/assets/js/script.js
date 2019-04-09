@@ -10,7 +10,7 @@ $('#home2').click(() =>{
 	
 	$('#about2,#projects2,#contact2').css("color","#2884f2");
 	$('#home2').css("color","#ffffff");
-	location.reload();
+	location.reload().delay(1500);
 });
 
 $('#about, #about2').click(() =>{
