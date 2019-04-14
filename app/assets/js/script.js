@@ -115,7 +115,8 @@ $("#submit").click(()=>{
 })
 
 function firstpage(){
-$("#containSection").html(`
+	document.getElementById('containSection').innerHTML =
+	`
 		<div id="main" class="col-lg-10 center sec-up">
 
 				<h2 id="a-q" class="text-center mb-3">
@@ -174,15 +175,16 @@ $("#containSection").html(`
 				
 				</h4>
 			</div>
-	`);
+	`;
 };
 
 firstpage();
 
 
-
-$("#about2").click(()=>{
-	$('#containSection').html(`
+document.getElementById('about2').addEventListener('click', aboutpage);
+function aboutpage(){
+	document.getElementById('containSection').innerHTML=
+		`
 			<div id="about-sec" class="row">
 					<div  class="col-lg-10 center ">
 						<div id="about-con" class="row">
@@ -255,8 +257,8 @@ $("#about2").click(()=>{
 					</div>
 					
 				</div>
-	`)
-})
+	`
+	};
 
 function projectsShow(){
 	$("#containSection").html(`
@@ -337,14 +339,13 @@ function projectsShow(){
 }
 
 
-
-$("#projects2,#g-projects").click(()=>{
-	 projectsShow();
-})
+document.getElementById('g-projects').addEventListener('click',projectsShow);
+document.getElementById('projects2').addEventListener('click',projectsShow);
 
 
 $("#contact2").click(()=>{
-	$("#containSection").html(`
+	document.getElementById('containSection').innerHTML =
+		`
 			<div id="contact-sec" class="row">
 				<div class="col-lg-6 center mb-4">
 					<h2 class="text-center title wite bg-b">contact</h2>
@@ -385,7 +386,7 @@ $("#contact2").click(()=>{
 				</div>
 				
 			</div>	
-	`);
+	`;
 })
 
 $('#a-q').each(function(){
