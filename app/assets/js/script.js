@@ -81,7 +81,7 @@ function validate_message(){
  }
 
 $("#submit").click(()=>{
-
+	
 	if(validate_message()){
 
 		var name = $('#name').val();
@@ -350,7 +350,7 @@ $("#contact2").click(()=>{
 				<div class="col-lg-6 center mb-4">
 					<h2 class="text-center title wite bg-b">contact</h2>
 					
-					<form>
+					<form >
 						<div class="form-group bg-b">
 							<label for="name" class="wite">Name:</label>
 							<input id="name" name="name" type="name" class="form-control">
@@ -380,14 +380,16 @@ $("#contact2").click(()=>{
 						<h4 id="notification" class="text-center notification"></h4>
 						<h4 id="warning" class="text-center warning"></h4>
 						<div class="bg-b">
-							<button id="submit" type="button" class="btn btn-block p-3 my-4" >Submit</button>
+							<button id="submit" type="" class="btn btn-block p-3 my-4" >Submit</button>
 						</div>
 					</form>
 				</div>
 				
 			</div>	
 	`;
-})
+});
+
+
 
 $('#a-q').each(function(){
   $(this).html($(this).text().replace(/([^\x00-\x80]|\w)/g, "<span class='letter'>$&</span>"));
