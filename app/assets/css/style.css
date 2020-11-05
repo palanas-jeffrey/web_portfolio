@@ -2,7 +2,6 @@
 	height: 50px;
 	width:  50px;
 	margin: 15px 15px;
-
 }
 .instruction{
 	color: white;
@@ -12,13 +11,11 @@
 .instruction>span{
 	background-color: red;
 }
-
-
 .views >p> span{
 	background-color: rgba(0,0,0 ,0.7);
 	border-radius: 5px;
 	padding: 2px;
-	cursor: alias;
+	cursor: pointer;
 }
 .plane-img-con{
 	height: 80px;
@@ -39,15 +36,12 @@
 	min-width: 40%;
 	margin-left:60%;
 }
-
 .views{
 	color: #ffffff;
 	padding-right: 35px;
 	padding-bottom: 0px;
 	font-size: 20px;
 	text-shadow: 2px 2px rgba(0,0,0 ,0.7);
-
-	
 }
 .views > p{
 	text-align: right;
@@ -63,7 +57,6 @@ body{
 	background-attachment: fixed;
 	background-repeat: no-repeat;
 }
-
 .visit-a{	
 	text-decoration: none;
 	/*transition: 0.3s;*/
@@ -79,13 +72,10 @@ font-family: 'Roboto', sans-serif;
 font-size: 50px;
 color: #ffffff;
 }
-
 .letter{
 	font-size: 39px;
 	color: #ffffff;
 }
-
-
 #g-projects{
 	color: #ffffff;
 	font-size: 30px;
@@ -113,89 +103,68 @@ color: #ffffff;
 #submit:not(:hover){
 	transition: 1s;
 }
-
 .bg-b{
 	background-color: rgba(0,0,0 ,0.4);
 	padding: 5px 20px;
 }
-
 .cont-h{
 	position: relative;
 	padding: 0;
 	margin: 0;
 	min-height: 100vh;
 	background-color: rgba(0,0,0 ,0.4);
-
 }
 #particles-js{
 	position: fixed;
 }
-
 #main-bg{
 	display: none;
 	z-index: 7;
 }
-
 #contact-sec{
 	padding-top: 10vh;
 	min-height: 100vh;
 }
-
-
 .con-h-2{
 	position: relative;
 	padding: 0;
 	margin: 0;
 	height: 50vh;
 }
-
 .wite{
 	color: #ffffff;
 }
-
 .btn-p{
 	border: 2px solid #ffffff;
 	color: #ffffff;
 }
-
 .center{
 	margin: 0 auto;
 }
-
 .cont{
 	min-height:100vh;
 }
-
 .check1{
 	border:1px solid red;
 }
 .check2{
 	border: 1px solid yellow;
 }
-
 .sec-1{
 	position: absolute;
 	z-index: 2;
 }
-
 .sec-up{	
 	padding-top:35vh;
 	min-height: 100vh; 
 }
-
-
-
 .sec-b{
 	min-height: 100vh;
 }
-
 #about-con{
 	padding-top: 10vh;
 	min-height: 100vh;
-
 }
-
-
 .img-s{
 	height: 50vh;
 	width: 100%;
@@ -216,25 +185,21 @@ color: #ffffff;
 .t-con-p{
 	margin: 0 15px;
 }
-
 .notification{
 	color: #76FF03;
 }
 .warning{
 	color: #FF3D00;
 }
-
 .b-b{
 	border-bottom: 1px solid black;
 }
-
 label{
 	font-size: 20px;
 }
 .h-lan{
 	min-height: 20vh;
 }
-
 #footer{
 	min-height: 18vh;
 	background-color: rgba(0,0,0,1);
@@ -252,12 +217,6 @@ label{
 
 
 	/* custom media queries */
-
-
-
-
-
-
 
 @media only screen and (min-width: 355px) and (max-width: 769px) {
 
@@ -285,7 +244,6 @@ body{
 	width:  30px;
 	margin: 10px 10px;
 }
-
 .views> p > span{
 	color: #ffffff;
 	padding-right: 0px;
@@ -323,23 +281,18 @@ body{
 .b-cont{
 	margin-top: 7vh;
 }
-
-
 .ps{
 	font-size: 15px;
 }
-
 #contact-sec{
 	padding-top: 2vh;
 }
-
 .img-s{
 	height: 30vh;
 	width: 100%;
 	padding-top: 3vh;
 	margin: 0 10px;
 }
-
 .bg-b{
 	margin: 0 10px;
 }
@@ -355,10 +308,7 @@ label{
 #submit{
 	font-size: 15px;
 }
-
 }
-
-
 @media only screen and (min-width: 639px) and (max-width: 670px){
 .img-ex{
 height: 80vh;
@@ -369,16 +319,13 @@ height: 80vh;
 #contact-sec{
 	margin: 5vh;
 }
-
 #about-con{
 	padding-top: 5vh;
 }
 #profile{
 	margin-top: 25px;
 }
-
 }
-
 @media only screen and (min-width: 730px) and (max-width: 731px){
 .img-ex{
 height: 80vh;
@@ -393,7 +340,6 @@ height: 80vh;
 #profile{
 	margin-top: 25px;
 }
-
 }
 
 /*Tablet Styles*/
@@ -426,7 +372,6 @@ height: 80vh;
 	width: 100%;
 	padding-top: 3vh;
 }
-
 }
 
 	/*Desktop Styles*/
@@ -436,6 +381,4 @@ height: 80vh;
 .m-top{
 	margin-top: 20px;
 }
-
-
 }
